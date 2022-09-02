@@ -5,6 +5,7 @@ __pycache__/
 demo.txt
 # C extensions
 *.so
+*.logs
 
 # Distribution / packaging
 .Python

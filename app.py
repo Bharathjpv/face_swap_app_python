@@ -2,6 +2,11 @@ from face_swap_app.face_app import face_app
 import os
 from flask import Flask, render_template, request
 import cv2
+import logging
+
+
+logger = logging.getLogger(__name__)
+
 
 app = Flask('__name__')
 
@@ -27,13 +32,13 @@ def temp():
     destination_img = request.files['img2']
     source_img.save(os.path.join(ROOT, 'images/src_img.jpg'))
     destination_img.save(os.path.join(ROOT, 'images/dst_img.jpg'))
-
+    logger.info('Image accepted form user')
     fp = face_app(source_path, dest_path)
     fp.run()
 
-    Flask_Logo = os.path.join(app.config['UPLOAD_FOLDER'], 'modified.jpg')
-    print(Flask_Logo)
-    return render_template("result.html", user_image=Flask_Logo)
+    display_image = os.path.join(app.config['UPLOAD_FOLDER'], 'modified.jpg')
+    logger.info('generated image returned')
+    return render_template("result.html", user_image=display_image)
 
 
 # def main():
