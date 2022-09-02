@@ -3,7 +3,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 demo.txt
-*.jpg
 # C extensions
 *.so
 
