@@ -5,11 +5,11 @@ This is a flask-based application where we can swap the face of two people and h
 ![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2PboABpNcPI6eOXyfu1xPi79tD2mm_XiAmTkzftxbhw&s)
 
 ## Source image and Destination Image
-<img src="https://raw.githubusercontent.com/Bharathjpv/face_swap_app_python/main/DiCaprio.jpg" width=130 height=140>
-<img src="https://raw.githubusercontent.com/Bharathjpv/face_swap_app_python/main/photo.jpg" width=130 height = 140>
+<img src="https://raw.githubusercontent.com/Bharathjpv/face_swap_app_python/main/DiCaprio.jpg">
+<img src="https://raw.githubusercontent.com/Bharathjpv/face_swap_app_python/main/photo.jpg">
 
 ## Generated image
-<img src="https://raw.githubusercontent.com/Bharathjpv/face_swap_app_python/main/modified.jpg" width=130>
+<img src="https://raw.githubusercontent.com/Bharathjpv/face_swap_app_python/main/modified.jpg">
 
 later it marks the landmarks and swaps the faces with the destination image. It also can adjust if the face is sideways, color contrast, and the size of the image too.
 
