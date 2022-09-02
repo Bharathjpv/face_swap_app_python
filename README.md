@@ -3,10 +3,19 @@
 This is a flask-based application where we can swap the face of two people and have some fun with it. The model used is shape_predictor_68_face_landmarks of both the faces uploaded which gives us the 68 points landmarks of the face as shown.
 
 ![Image](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2PboABpNcPI6eOXyfu1xPi79tD2mm_XiAmTkzftxbhw&s)
-<!-- ![Image]() -->
+
+Source image
+
+<img src="https://raw.githubusercontent.com/Bharathjpv/face_swap_app_python/main/DiCaprio.jpg" width=130>
+
+destination image
+
+<img src="https://raw.githubusercontent.com/Bharathjpv/face_swap_app_python/main/photo.jpg" width=130>
 
 later it marks the landmarks and swaps the faces with the destination image. It also can adjust if the face is sideways, color contrast, and the size of the image too.
 
+generated image
+<img src="" width=130>
 ## Steps Used
 
 1. Taking two images – one as the source and another as a destination.
