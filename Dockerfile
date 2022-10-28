@@ -4,7 +4,7 @@ RUN apt-get update && apt-get install libgl1 -y && conda install -c conda-forge 
 
 WORKDIR /app
 
-COPY . /appa
+COPY . /app
 
 RUN pip install -r requirements.txt
 
