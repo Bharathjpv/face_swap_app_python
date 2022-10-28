@@ -1,6 +1,6 @@
-scikit-build
-opencv-contrib-python-headless
+opencv-contrib-python
 numpy
 matplotlib
 flask
+from_root
 dlib

@@ -1,11 +1,11 @@
-FROM ubuntu:18.04
+FROM continuumio/miniconda3
 
-RUN apt-get update -y && apt upgrade -y && apt-get install -y python3 && apt-get install python3-pip -y
+RUN apt-get update && apt-get install libgl1 -y && conda install -c conda-forge dlib -y
 
 WORKDIR /app
 
-COPY . /app
+COPY . /appa
 
-RUN pip3 install -r requirements.txt
+RUN pip install -r requirements.txt
 
-CMD ["python3", "app.py"]
+CMD ["python", "app.py"]
