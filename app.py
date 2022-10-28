@@ -8,7 +8,7 @@ import logging
 logger = logging.getLogger(__name__)
 
 
-app = Flask('__name__')
+app = Flask(__name__)
 
 IMG_FOLDER = os.path.join('static', 'images')
 
@@ -47,4 +47,4 @@ def temp():
 
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run(host='0.0.0.0', port=5000)

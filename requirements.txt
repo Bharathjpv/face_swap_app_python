@@ -1,5 +1,6 @@
-opencv-python
+scikit-build
+opencv-contrib-python-headless
 numpy
-ipykernel
 matplotlib
 flask
+dlib
