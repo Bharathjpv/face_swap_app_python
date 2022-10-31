@@ -46,6 +46,8 @@ To launch swagger ui
 http://localhost:5000/
 ```
 
+**<center> NOTE: upload the photos with frontal face. </center>**
+
 ## 🧑‍💻 Tech Used
 1. computer vision
 2. dlib 
